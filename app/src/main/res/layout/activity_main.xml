@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="162dp"
+        android:layout_height="141dp"
+        android:scaleType="centerCrop"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.132"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.061"
+        app:srcCompat="@drawable/ic_launcher_background"
+        tools:srcCompat="@tools:sample/avatars" />
+
+    <EditText
+        android:id="@+id/editTextName"
+        android:layout_width="350dp"
+        android:layout_height="56dp"
+        android:layout_marginTop="20dp"
+        android:ems="10"
+        android:hint="Name"
+        android:inputType="textPersonName"
+        app:layout_constraintEnd_toEndOf="@+id/editTextDuration"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="@+id/editTextDuration"
+        app:layout_constraintTop_toBottomOf="@+id/editTextDuration" />
+
+    <Button
+        android:id="@+id/btnSubmit"
+        android:layout_width="352dp"
+        android:layout_height="60dp"
+        android:layout_marginTop="20dp"
+        android:text="Ok"
+        app:layout_constraintEnd_toEndOf="@+id/editTextName"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="@+id/editTextName"
+        app:layout_constraintTop_toBottomOf="@+id/editTextName" />
+
+    <EditText
+        android:id="@+id/editTextDuration"
+        android:layout_width="350dp"
+        android:layout_height="56dp"
+        android:layout_marginTop="20dp"
+        android:ems="10"
+        android:hint="Duration"
+        android:inputType="textPersonName"
+        app:layout_constraintEnd_toEndOf="@+id/editTextCourse"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="@+id/editTextCourse"
+        app:layout_constraintTop_toBottomOf="@+id/editTextCourse" />
+
+    <EditText
+        android:id="@+id/editTextCourse"
+        android:layout_width="350dp"
+        android:layout_height="56dp"
+        android:layout_marginTop="20dp"
+        android:ems="10"
+        android:hint="Course"
+        android:inputType="textPersonName"
+        app:layout_constraintEnd_toEndOf="@+id/editTextRoll"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/editTextRoll"
+        app:layout_constraintTop_toBottomOf="@+id/editTextRoll" />
+
+    <EditText
+        android:id="@+id/editTextRoll"
+        android:layout_width="350dp"
+        android:layout_height="56dp"
+        android:layout_marginTop="224dp"
+        android:ems="10"
+        android:hint="Roll"
+        android:inputType="textPersonName"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.508"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/btnImageSelect"
+        android:layout_width="133dp"
+        android:layout_height="62dp"
+        android:text="Select"
+        app:layout_constraintBottom_toBottomOf="@+id/imageView"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.59"
+        app:layout_constraintStart_toEndOf="@+id/imageView"
+        app:layout_constraintTop_toTopOf="@+id/imageView"
+        app:layout_constraintVertical_bias="0.686" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

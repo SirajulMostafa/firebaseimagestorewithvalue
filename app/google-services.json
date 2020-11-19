@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "698376703063",
+    "firebase_url": "https://fir-image-value.firebaseio.com",
+    "project_id": "fir-image-value",
+    "storage_bucket": "fir-image-value.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:698376703063:android:47579696d5b0cc8a93a712",
+        "android_client_info": {
+          "package_name": "com.mostafa.firebaseimagestorewithvalue"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "698376703063-6a89o23lkkatsjvd5tpp9hv0bp5vmvl7.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBT8vviuFW_v45qglp5C_QNr9KKxqBRuys"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "698376703063-6a89o23lkkatsjvd5tpp9hv0bp5vmvl7.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
